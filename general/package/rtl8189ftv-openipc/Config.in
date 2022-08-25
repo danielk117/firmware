@@ -1,0 +1,10 @@
+config BR2_PACKAGE_RTL8189FTV_OPENIPC
+	bool "rtl8189ftv-openipc"
+	depends on BR2_LINUX_KERNEL
+	help
+	  A standalone driver for the RTL8189FTV Wi-Fi adapter.
+
+	  https://github.com/jwrdegoede/rtl8189ES_linux
+
+comment "rtl8189ftv needs a Linux kernel to be built"
+	depends on !BR2_LINUX_KERNEL

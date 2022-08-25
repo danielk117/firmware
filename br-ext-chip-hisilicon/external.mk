@@ -45,6 +45,7 @@ include $(BR2_EXTERNAL_HISILICON_PATH)/package/rtl8188eus-openipc/rtl8188eus-ope
 include $(BR2_EXTERNAL_HISILICON_PATH)/package/rtw-hostapd/rtw-hostapd.mk
 include $(BR2_EXTERNAL_HISILICON_PATH)/package/rtl8188fu-openipc/rtl8188fu-openipc.mk
 include $(BR2_EXTERNAL_HISILICON_PATH)/package/rtl8812au-openipc/rtl8812au-openipc.mk
+include $(BR2_EXTERNAL_HISILICON_PATH)/package/rtl8189ftv-openipc/rtl8189ftv-openipc.mk
 include $(BR2_EXTERNAL_HISILICON_PATH)/package/uacme-openipc/uacme-openipc.mk
 include $(BR2_EXTERNAL_HISILICON_PATH)/package/uqmi-openipc/uqmi.mk
 include $(BR2_EXTERNAL_HISILICON_PATH)/package/usrsctp/usrsctp.mk

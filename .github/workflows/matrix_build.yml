@@ -28,8 +28,6 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - ak3918ev300
-          - gk7102
           - hi3516cv100
           - hi3516cv200
           - hi3516cv300
@@ -37,9 +35,6 @@ jobs:
           - hi3516ev200
           - hi3519v101
           - hi3536cv100
-          - t31
-          - xm510
-          - xm530
 
     steps:
 
